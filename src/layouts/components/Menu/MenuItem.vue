@@ -8,8 +8,8 @@
       class="menu-icon"
       v-if="item.children ? item.children[0].meta.icon : item.meta.icon"
       theme="outline"
-      size="14"
-      strokeWidth="3"
+      size="17"
+      strokeWidth="2"
       :is="item.children ? item.children[0].meta.icon : item.meta.icon"
     />
     <template #title>
@@ -24,8 +24,8 @@
         class="menu-icon"
         v-if="item.meta.icon"
         theme="outline"
-        size="14"
-        strokeWidth="3"
+        size="17"
+        strokeWidth="2"
         :is="item.meta.icon"
       />
       <span class="title">{{ item.meta.title }}</span>
@@ -37,7 +37,7 @@
           class="menu-icon"
           v-if="option.meta.icon"
           theme="outline"
-          size="14"
+          size="17"
           strokeWidth="3"
           :is="option.meta.icon"
         />
@@ -89,7 +89,7 @@
 </script>
 <style lang="scss" scoped>
   .menu-icon,
-  .icon {
+  .menu-icon {
     display: inline-flex;
     align-items: center;
     justify-content: center;
