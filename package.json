@@ -4,7 +4,7 @@
   "author": {
     "name": "PnadaGoAdmin",
     "email": "2417920382@qq.com",
-    "url": "https://github.com/hu-snail"
+    "url": "https://github.com/PandaGoAdmin/PandaUi"
   },
   "scripts": {
     "lint": "eslint \"src/**/*.{js,vue}\"",
@@ -69,13 +69,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hu-snail/vue3-admin-element-template.git"
+    "url": "git+https://github.com/PandaGoAdmin/PandaUi.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hu-snail/vue3-admin-element-template/issues"
+    "url": "https://github.com/PandaGoAdmin/PandaUi/issues"
   },
-  "homepage": "https://github.com/hu-snail/vue3-admin-element-template",
+  "homepage": "https://github.com/PandaGoAdmin/PandaUi",
   "engines": {
     "node": "^12 || >=14"
   }
