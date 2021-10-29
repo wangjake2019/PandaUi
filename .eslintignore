@@ -1,4 +1,9 @@
-
+src/assets
+src/icons
+public
+dist
+node_modules
+index.html
 *.sh
 node_modules
 *.md
@@ -6,8 +11,6 @@ node_modules
 *.ttf
 .vscode
 .idea
-dist
-/public
 /docs
 .husky
 .local
