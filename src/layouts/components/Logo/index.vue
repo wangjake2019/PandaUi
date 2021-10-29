@@ -4,7 +4,7 @@
     class="logo-wrapper"
     :class="{ unfold: collapse, horizontal: mode === 'horizontal' }"
   >
-    <svg-icon name="vue" size="35px" />
+    <svg-icon name="logo" size="35px" />
     <span class="logo-title" :style="{ color: textColor }" v-if="!collapse"> PandaGoAdmin </span>
   </div>
 </template>
