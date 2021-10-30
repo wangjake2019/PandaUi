@@ -5,7 +5,7 @@
       size="default"
       :animated="false"
       :hideAdd="true"
-      :tabBarGutter="10"
+      :tabBarGutter="30"
       :activeKey="activeKeyRef"
       @change="handleChange"
       @edit="handleEdit"
