@@ -2,10 +2,10 @@
   <div :class="getWrapClass">
     <Tabs
       type="editable-card"
-      size="small"
+      size="default"
       :animated="false"
       :hideAdd="true"
-      :tabBarGutter="3"
+      :tabBarGutter="10"
       :activeKey="activeKeyRef"
       @change="handleChange"
       @edit="handleEdit"
@@ -27,7 +27,7 @@
   </div>
 </template>
 <script lang="ts">
-  import type { RouteLocationNormalized, RouteMeta } from 'vue-router';
+  import { RouteLocationNormalized, RouteMeta } from 'vue-router';
 
   import { defineComponent, computed, unref, ref } from 'vue';
 
