@@ -2,87 +2,106 @@
 
 <h1 align="center">PandaUI</h1>
 
-> PandaUI 是 PandaX的前端ui框架。
-
-## 前言
-
-`PandaUI`项目是`js`版本,相信有部分刚入门的程序员不熟悉`ts`编写，在github上查找了关于vue3中后台模板,大部分都是基于ts版本。所以决定自己写一个基于js版本的中后台模板，当然如果您很熟练ts建议您使用它！不熟悉的建议您开始纳入学习计划。
 
 ## 简介
 
-`PandaUI`是一个免费开源的中后台模板你，使用了最新的`vue3`、`vite2` 等主流技术开发，开箱即用的中后台前端解决方案。
-
-项目目的：
-
-- 学习`Vue3`相关Api
-- 掌握`Vite2`插件机制、构建配置
-
-提示：项目使用<script setup> 新语法编写，会有黄色警告信息，不用理会！！！
- 
+PandaGoAdmin 是一个免费开源的中后台模版。使用了最新的`vue3`,`vite2`,`TypeScript`等主流技术开发，开箱即用的中后台前端解决方案，也可用于学习参考。
 
 ## 特性
 
-- 最新技术栈：vue3.2.12/vite2
-- Javascript版本
-- 可自定义主题
-- vue-i18n国际化方案
-- Mock 数据方案
-- 权限控制
+- **最新技术栈**：使用 Vue3/vite2 等前端前沿技术开发
+- **TypeScript**: 应用程序级 JavaScript 的语言
+- **主题**：可配置的主题
+- **国际化**：内置完善的国际化方案
+- **Mock 数据** 内置 Mock 数据方案
+- **权限** 内置完善的动态路由权限生成方案
+- **组件** 二次封装了多个常用的组件
+
+## 预览
+
+
+<p align="center">
+    <img alt="PandaGoAdmin Logo" width="100%" src="https://github.com/PandaGoAdmin/PandaUi/images/preview1.png">
+    <img alt="PandaGoAdmin Logo" width="100%" src="https://github.com/PandaGoAdmin/PandaUi/images/preview2.png">
+    <img alt="PandaGoAdmin Logo" width="100%" src="https://github.com/PandaGoAdmin/PandaUi/images/preview3.png">
+</p>
 
 ## 文档
-
-正在编写中......
+[文档地址](https://github.com/PandaGoAdmin/PandaUi)
 
 ## 准备
 
-- `Node`: 版本建议 >= 12.0.0 [下载链接](https://nodejs.org/zh-cn/download/)
-- `Git`: [版本管理工具](https://www.git-scm.com/download)
-- `Visual Studio Code`: [最新版本](https://code.visualstudio.com/Download/)
-  - [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) - vue开发必备
-  - [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)- 脚本代码检查
-  - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - 代码格式化
-  - [Stylelin](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) - css格式化
+- [node](http://nodejs.org/) 和 [git](https://git-scm.com/) -项目开发环境
+- [Vite](https://vitejs.dev/) - 熟悉 vite 特性
+- [Vue3](https://v3.vuejs.org/) - 熟悉 Vue 基础语法
+- [TypeScript](https://www.typescriptlang.org/) - 熟悉`TypeScript`基本语法
+- [Es6+](http://es6.ruanyifeng.com/) - 熟悉 es6 基本语法
+- [Vue-Router-Next](https://next.router.vuejs.org/) - 熟悉 vue-router 基本使用
+- [Ant-Design-Vue](https://2x.antdv.com/docs/vue/introduce-cn/) - ui 基本使用
+- [Mock.js](https://github.com/nuysoft/Mock) - mockjs 基本语法
 
 ## 安装使用
 
-- 获取代码
+- 获取项目代码
 
-```sh
+```bash
 git clone https://github.com/PandaGoAdmin/PandaUi.git
 ```
 
 - 安装依赖
 
-```sh
+```bash
+cd PandaUi
+
 yarn install
+
 ```
 
 - 运行
 
-```sh
+```bash
 yarn serve
 ```
 
 - 打包
 
-```sh
+```bash
 yarn build
 ```
 
-- 本地预览
+## 项目地址
 
-```sh
-yarn preview
-```
+- [PandaX](https://github.com/PandaGoAdmin/PandaX) - 完整版
 
-- 打包/预览
+## 如何贡献
 
-```sh
-yarn build:preview
-```
+非常欢迎你的加入！[提一个 Issue](https://github.com/PandaGoAdmin/PandaX/issues/new/choose) 或者提交一个 Pull Request。
 
-## 预览
+**Pull Request:**
 
+1. Fork 代码!
+2. 创建自己的分支: `git checkout -b feat/xxxx`
+3. 提交你的修改: `git commit -am 'feat(function): add xxxxx'`
+4. 推送您的分支: `git push origin feat/xxxx`
+5. 提交`pull request`
+
+## Git 贡献提交规范
+
+- 参考 [vue](https://github.com/vuejs/vue/blob/dev/.github/COMMIT_CONVENTION.md)
+
+  - `feat` 增加新功能
+  - `fix` 修复问题/BUG
+  - `style` 代码风格相关无影响运行结果的
+  - `perf` 优化/性能提升
+  - `refactor` 重构
+  - `revert` 撤销修改
+  - `test` 测试相关
+  - `docs` 文档/注释
+  - `chore` 依赖更新/脚手架配置修改等
+  - `workflow` 工作流改进
+  - `ci` 持续集成
+  - `types` 类型定义文件更改
+  - `wip` 开发中
 
 ## 浏览器支持
 
@@ -90,7 +109,21 @@ yarn build:preview
 
 支持现代浏览器, 不支持 IE
 
+| [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt=" Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>IE | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt=" Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Safari |
+| :-: | :-: | :-: | :-: | :-: |
+| not support | last 2 versions | last 2 versions | last 2 versions | last 2 versions |
+
+## 后台整合示例
+
+- [PandaX](https://github.com/PandaGoAdmin/PandaX) - 基于 go-zero 的微服务中后台快速开发平台
+- [Panda](https://github.com/PandaGoAdmin/Panda) - 基于 go-zero 的单机版中后台快速开发平台
+
+## 交流
+
+`PandaGoAdmin` 是完全开源免费的项目，在帮助开发者更方便地进行中大型管理系统开发，同时也提供 QQ 交流群使用问题欢迎在群内提问。
+
+- QQ 群 `2417920382`
+
 ## License
 
-[MIT © PandaUi-2021](https://github.com/PandaGoAdmin/PandaUi/blob/master/LICENSE)
-
+[MIT © PandaGoAdmin-2020](./LICENSE)
