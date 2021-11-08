@@ -1,129 +1,115 @@
-<div align="center"><img src="https://github.com/PandaGoAdmin/PandaUi/blob/master/src/assets/logo.png"/></div>
+<div align="center">
+	<img src="https://github.com/PandaGoAdmin/PandaUi/blob/master/src/assets/logo.png">
+	<p align="center">
+	    <a href="https://v3.vuejs.org/" target="_blank">
+	        <img src="https://img.shields.io/badge/vue.js-vue3.x-green" alt="vue">
+	    </a>
+	    <a href="https://element-plus.gitee.io/#/zh-CN/component/changelog" target="_blank">
+	        <img src="https://img.shields.io/badge/element--plus-%3E1.0.0-blue" alt="element plus">
+	    </a>
+		<a href="https://www.tslang.cn/" target="_blank">
+	        <img src="https://img.shields.io/badge/typescript-%3E4.0.0-blue" alt="typescript">
+	    </a>
+		<a href="https://vitejs.dev/" target="_blank">
+		    <img src="https://img.shields.io/badge/vite-%3E2.0.0-yellow" alt="vite">
+		</a>
+		<a href="https://github.com/PandaGoAdmin/PandaUi/blob/master/LICENSE" target="_blank">
+		    <img src="https://img.shields.io/badge/license-MIT-success" alt="license">
+		</a>
+	</p>
+	<p>&nbsp;</p>
+</div>
 
-<h1 align="center">PandaUI</h1>
+#### 🌈 介绍
 
+基于 vue3.x + CompositionAPI + typescript + vite + element plus + vue-router-next + next.vuex，适配手机、平板、pc 的后台开源免费模板，希望减少工作量，帮助大家实现快速开发。
 
-## 简介
+#### ⛱️ 线上预览
 
-PandaGoAdmin 是一个免费开源的中后台模版。使用了最新的`vue3`,`vite2`,`TypeScript`等主流技术开发，开箱即用的中后台前端解决方案，也可用于学习参考。
+#### 💒 代码仓库
 
-## 特性
+- PandaX 微服务版本 <a href="https://gitee.com/PandaGoAdmin/PandaX" target="_blank">https://gitee.com/PandaGoAdmin/PandaX</a>
+- Panda  单节点版本 <a href="https://gitee.com/PandaGoAdmin/Panda" target="_blank">https://gitee.com/PandaGoAdmin/Panda</a>
 
-- **最新技术栈**：使用 Vue3/vite2 等前端前沿技术开发
-- **TypeScript**: 应用程序级 JavaScript 的语言
-- **主题**：可配置的主题
-- **国际化**：内置完善的国际化方案
-- **Mock 数据** 内置 Mock 数据方案
-- **权限** 内置完善的动态路由权限生成方案
-- **组件** 二次封装了多个常用的组件
+#### 🚧 安装 cnpm、yarn
 
-## 预览
+- 复制代码(桌面 cmd 运行) `npm install -g yarn --registry=https://registry.npm.taobao.org`
+- 复制代码(桌面 cmd 运行) `npm install -g yarn`
 
+#### 🏭 环境支持
 
-<p align="center">
-    <img alt="PandaGoAdmin Logo" width="100%" src="https://github.com/PandaGoAdmin/PandaUi/images/preview1.png">
-    <img alt="PandaGoAdmin Logo" width="100%" src="https://github.com/PandaGoAdmin/PandaUi/images/preview2.png">
-    <img alt="PandaGoAdmin Logo" width="100%" src="https://github.com/PandaGoAdmin/PandaUi/images/preview3.png">
-</p>
+| Edge                                                                     | last 2 versions                                                                   | last 2 versions                                                                | last 2 versions                                                                |
+| ------------------------------------------------------------------------ | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
+| ![Edge](https://cdn.jsdelivr.net/npm/@browser-logos/edge/edge_32x32.png) | ![Firefox](https://cdn.jsdelivr.net/npm/@browser-logos/firefox/firefox_32x32.png) | ![Chrome](https://cdn.jsdelivr.net/npm/@browser-logos/chrome/chrome_32x32.png) | ![Safari](https://cdn.jsdelivr.net/npm/@browser-logos/safari/safari_32x32.png) |
 
-## 文档
-[文档地址](https://github.com/PandaGoAdmin/PandaUi)
+> 由于 Vue3 不再支持 IE11，故而 ElementPlus 也不支持 IE11 及之前版本。
 
-## 准备
+#### ⚡ 使用说明
 
-- [node](http://nodejs.org/) 和 [git](https://git-scm.com/) -项目开发环境
-- [Vite](https://vitejs.dev/) - 熟悉 vite 特性
-- [Vue3](https://v3.vuejs.org/) - 熟悉 Vue 基础语法
-- [TypeScript](https://www.typescriptlang.org/) - 熟悉`TypeScript`基本语法
-- [Es6+](http://es6.ruanyifeng.com/) - 熟悉 es6 基本语法
-- [Vue-Router-Next](https://next.router.vuejs.org/) - 熟悉 vue-router 基本使用
-- [Ant-Design-Vue](https://2x.antdv.com/docs/vue/introduce-cn/) - ui 基本使用
-- [Mock.js](https://github.com/nuysoft/Mock) - mockjs 基本语法
-
-## 安装使用
-
-- 获取项目代码
+建议<a href="http://nodejs.cn/" target="_blank">node 版本 > 17.0.0</a>
 
 ```bash
+# 克隆项目
 git clone https://github.com/PandaGoAdmin/PandaUi.git
-```
 
-- 安装依赖
-
-```bash
+# 进入项目
 cd PandaUi
 
-yarn install
+# 安装依赖
+yarn
 
-```
+# 运行项目
+yarn dev
 
-- 运行
-
-```bash
-yarn serve
-```
-
-- 打包
-
-```bash
+# 打包发布
 yarn build
 ```
 
-## 项目地址
+#### 🍉 git 命令
 
-- [PandaX](https://github.com/PandaGoAdmin/PandaX) - 完整版
+- 在本地新建一个分支：`git branch newBranch`
+- 切换到你的新分支：`git checkout newBranch`
+- 将新分支发布在 github、gitee 上：`git push origin newBranch`
+- 在本地删除一个分支：`git branch -d newBranch`
+- 在 github 远程端删除一个分支：`git push origin :newBranch (分支名前的冒号代表删除)`
+- 注意删除远程分支后，如果有对应的本地分支，本地分支并不会同步删除！
 
-## 如何贡献
+#### 💯 学习交流加 QQ 群
 
-非常欢迎你的加入！[提一个 Issue](https://github.com/PandaGoAdmin/PandaX/issues/new/choose) 或者提交一个 Pull Request。
+- 若加群了没同意（一般不会超过一天），那就是群满了，请换一个群试试
+- 查看开发文档、<a href="" target="_blank">PandaUi</a> 开发文档正在编写中...
 
-**Pull Request:**
+#### ❤️ 鸣谢列表
 
-1. Fork 代码!
-2. 创建自己的分支: `git checkout -b feat/xxxx`
-3. 提交你的修改: `git commit -am 'feat(function): add xxxxx'`
-4. 推送您的分支: `git push origin feat/xxxx`
-5. 提交`pull request`
+- <a href="https://github.com/vuejs/vue" target="_blank">vue</a>
+- <a href="https://github.com/vuejs/vue-next" target="_blank">vue-next</a>
+- <a href="https://github.com/ElemeFE/element" target="_blank">element-ui</a>
+- <a href="https://github.com/element-plus/element-plus" target="_blank">element-plus</a>
+- <a href="https://github.com/vuejs/vue-router-next" target="_blank">vue-router-nex</a>
+- <a href="https://github.com/vuejs/vuex" target="_blank">vuex</a>
+- <a href="https://github.com/apache/echarts" target="_blank">echarts</a>
+- <a href="https://github.com/axios/axios" target="_blank">axios</a>
+- <a href="https://github.com/zenorocha/clipboard.js" target="_blank">clipboard</a>
+- <a href="https://github.com/inorganik/countUp.js" target="_blank">countUp</a>
+- <a href="https://github.com/developit/mitt" target="_blank">mitt</a>
+- <a href="https://github.com/rstacruz/nprogress" target="_blank">nprogress</a>
+- <a href="https://github.com/sindresorhus/screenfull.js" target="_blank">screenfull</a>
+- <a href="https://github.com/SortableJS/Sortable" target="_blank">sortablejs</a>
+- <a href="https://github.com/sass/sass" target="_blank">sass</a>
+- <a href="https://github.com/microsoft/TypeScript" target="_blank">typescript</a>
+- <a href="https://github.com/vitejs/vite" target="_blank">vite</a>
+- <a href="https://github.com/wangeditor-team/wangEditor" target="_blank">wangeditor</a>
+- <a href="https://github.com/fengyuanchen/cropperjs" target="_blank">cropperjs</a>
+- <a href="https://github.com/davidshimjs/qrcodejs" target="_blank">qrcodejs</a>
+- <a href="https://github.com/crabbly/Print.js" target="_blank">print-js</a>
+- <a href="https://github.com/likaia/screen-shot" target="_blank">vue-web-screen-shot</a>
+- <a href="https://github.com/jbaysolutions/vue-grid-layout" target="_blank">vue-grid-layout</a>
+- <a href="https://github.com/antoniandre/splitpanes" target="_blank">splitpanes</a>
+- <a href="https://github.com/yimijianfang/vue-drag-verify" target="_blank">vue-drag-verify</a>
+- <a href="https://github.com/jsplumb/jsplumb" target="_blank">jsplumb</a>
 
-## Git 贡献提交规范
 
-- 参考 [vue](https://github.com/vuejs/vue/blob/dev/.github/COMMIT_CONVENTION.md)
+#### 💌 支持作者
 
-  - `feat` 增加新功能
-  - `fix` 修复问题/BUG
-  - `style` 代码风格相关无影响运行结果的
-  - `perf` 优化/性能提升
-  - `refactor` 重构
-  - `revert` 撤销修改
-  - `test` 测试相关
-  - `docs` 文档/注释
-  - `chore` 依赖更新/脚手架配置修改等
-  - `workflow` 工作流改进
-  - `ci` 持续集成
-  - `types` 类型定义文件更改
-  - `wip` 开发中
-
-## 浏览器支持
-
-本地开发推荐使用`Chrome 80+` 浏览器
-
-支持现代浏览器, 不支持 IE
-
-| [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt=" Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>IE | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt=" Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Safari |
-| :-: | :-: | :-: | :-: | :-: |
-| not support | last 2 versions | last 2 versions | last 2 versions | last 2 versions |
-
-## 后台整合示例
-
-- [PandaX](https://github.com/PandaGoAdmin/PandaX) - 基于 go-zero 的微服务中后台快速开发平台
-- [Panda](https://github.com/PandaGoAdmin/Panda) - 基于 go-zero 的单机版中后台快速开发平台
-
-## 交流
-
-`PandaGoAdmin` 是完全开源免费的项目，在帮助开发者更方便地进行中大型管理系统开发，同时也提供 QQ 交流群使用问题欢迎在群内提问。
-
-- QQ 群 `2417920382`
-
-## License
-
-[MIT © PandaGoAdmin-2020](./LICENSE)
+如果觉得框架不错，或者已经在使用了，希望你可以去 <a target="_blank" href="https://github.com/PandaGoAdmin/PandaUi">Github</a> 或者
+<a target="_blank" href="https://gitee.com/PandaAdmin/PandaUi">Gitee</a> 帮我点个 ⭐ Star，这将是对我极大的鼓励与支持。
